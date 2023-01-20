@@ -1,0 +1,31 @@
+
+.hidden {
+  display: none;
+}
+
+/* span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} */
+span input.form-input:first-of-type {
+  /* width: %; */
+  margin: 0 1% 0 0;
+}
+span input.form-input:last-of-type {
+  margin: 0 0 0 1%;
+}
+.form-input {
+  /* display: block; */
+  width: 60%;
+  min-width: 40%;
+  max-width: 60%;
+  margin: 1% 0%;
+  padding: 1% 2%;
+  border: #000 0.1rem solid;
+  border-radius: 1rem;
+  color: #000;
+  font-size: 0.9rem;
+  font-family: "Roboto Slab";
+  background-color: rgba(255, 255, 255, 0.7);
+}

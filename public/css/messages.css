@@ -1,0 +1,37 @@
+.message-background{
+  padding-top: 1rem;
+  background-image: url("/img/bg6.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.message-section{
+  padding: 10% 0;
+}
+
+.messages{
+  width: 90%;
+  padding: 5%;
+  text-align: left;
+  margin: 0 auto;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.message-name{
+  text-transform: uppercase;
+}
+.messages h3{
+  text-align: left;
+}
+.message-section p{
+  margin: 0;
+}
+
+.message-email a{
+  color: #000;
+  background-color: #ddd;
+  border: 1px #000 solid;
+  padding: 0.5%;
+  font-size: small;
+}

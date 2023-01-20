@@ -1,0 +1,235 @@
+.project-background {
+  padding-top: 1rem;
+  background-image: url("/img/bg6.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+main {
+  overflow-x: hidden;
+}
+/* carousel-section */
+
+.project-carousel-section {
+  padding: 0;
+}
+.project-carousel-section .carousel {
+  padding: 5% 0 0;
+}
+.border-light-black {
+  border: #ccc solid 2px;
+}
+
+.carousel-control-next {
+  right: -10px;
+}
+.carousel-control-prev {
+  left: -10px;
+}
+
+.carousel-img {
+  width: 85%;
+  max-width: 1000px;
+  max-height: 500px;
+}
+
+/* project-doc-section */
+.project-doc-section {
+  /* background-color: #f0f0f0; */
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+}
+.project-doc-section p {
+  color: #000;
+}
+
+.project-duration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-title {
+  color: #000;
+  font-family: "Lato";
+  font-weight: 400;
+  margin: 0 auto;
+}
+.project-link {
+  color: #000;
+}
+.project-link:hover {
+  color: #000;
+  text-decoration: none;
+}
+.project-link i {
+  color: #000;
+}
+.project-link:hover i {
+  color: teal;
+}
+.project-tag-list {
+  list-style: none;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-tag {
+  margin: 0 1.6% 0.8% 0;
+  border: #000 1px solid;
+  padding: 0.5% 0.6%;
+  border-radius: 0.5rem;
+  font-size: 0.65rem;
+  transition: all 300ms;
+}
+.project-tag {
+  color: #000;
+}
+.project-tag:hover,
+.project-tag:active {
+  background-color: #000;
+  cursor: pointer;
+}
+.project-tag:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-learning {
+  list-style: none;
+}
+
+.project-learning li {
+  font-family: "Roboto Slab";
+  font-weight: 300;
+}
+.project-learning li p {
+  margin: 20px auto;
+}
+
+.project-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-link-group {
+  border: #000 2px;
+  border-style: dashed;
+  text-align: center;
+  margin: 5%;
+  padding: 2%;
+}
+.project-link-group h6 {
+  margin: 0;
+}
+.project-link-group img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+/* Media queries */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1440px) {
+  .project-doc-section h2,
+  .project-doc-section h1 {
+    text-align: left;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  section p {
+    font-size: 0.95rem;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  section p {
+    font-size: 0.9rem;
+  }
+
+  .project-doc-section {
+    padding: 5%;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .project-duration {
+    font-size: 0.75rem;
+    margin: 10px 0;
+    padding: 0;
+  }
+  .project-doc-section p {
+    padding: 0;
+  }
+
+  .project-doc-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  section p {
+    padding: 0 10%;
+  }
+
+  .project-title {
+    font-size: 1.5rem;
+  }
+
+  .project-doc-section h2 {
+    font-size: 1.2rem;
+  }
+  .project-tag {
+    margin: 0 2% 1.3% 0;
+  }
+
+  .project-background {
+    padding-top: 2rem;
+  }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  section p {
+    font-size: 0.85rem;
+  }
+
+  p.small-14 {
+    font-size: 0.7rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-size: 1.7rem;
+  }
+  .project-title {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .project-doc-section h2 {
+    font-size: 1rem;
+  }
+}

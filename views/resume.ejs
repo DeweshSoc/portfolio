@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %> 
+
+<main class="admin-background">
+    <section class="admin-btn-section">
+        <div class="add-group">
+            <h3>Resume Link Update</h3>
+            <form action="/resumes" method="POST" enctype="multipart/form-data">
+                <input type="text" name="resumeLink" value="<%= resumeLink %>" class="form-input">
+                <input type="submit" value="Update">
+            </form>
+        </div>
+    </section>
+</main>
+
+<%- include("partials/footer.ejs") %> 

@@ -1,0 +1,25 @@
+.admin-background {
+  padding-top: 1rem;
+  background-image: url("/img/bg6.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.admin-btn-section {
+  padding: 10% 0 0;
+  /* text-align: center; */
+}
+.admin-btn-section div {
+  width: 90%;
+  margin: 5% auto;
+  padding: 3%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.admin-btn-section div a {
+  font-family: "Roboto Slab";
+}
+.admin-btn-section :last-child {
+  margin-bottom: 7%;
+}

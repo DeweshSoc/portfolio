@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %> 
+<main class="message-background">
+            <section class="message-section">
+                <div class="messages">
+            <ul class="message-list" style="list-style: none;">
+                <h2> New Messages </h2>
+                <% for(let i=0;i<contacts.length;i++){ %>
+                    <li class="message-list-item">
+                    <div class="message-content">
+                        <p class="message-name">
+                           NAME : <%= contacts[i].name %> 
+                        </p>
+                        <p  class="message-email">
+                           EMAIL : <%= contacts[i].email %> <a href="mailto:<%= contacts[i].email%>">Reply Back</a>
+                        </p>
+                        <p class="message-main">
+                           MESSAGE : <%= contacts[i].message %> 
+                        </p>
+                    </div>
+                      </li>
+                <% } %>  
+            </ul>
+        </div>
+            </section>
+</main>
+<%- include("partials/footer.ejs") %> 
